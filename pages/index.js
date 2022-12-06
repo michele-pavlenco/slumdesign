@@ -37,7 +37,7 @@ export default function Home() {
                     <div className='about_us2_image'></div>
                 </div>
                 <div className='about_us_card'>
-
+                    <p>ciao</p>
                 </div>
                 <div className='about_us_card'>
                 </div>
