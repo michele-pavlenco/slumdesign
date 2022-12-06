@@ -10,17 +10,19 @@
 .jumbotron .opacity {
   background-color: rgba(255, 255, 255, 0.4);
   height: 100%;
-
-  z-index: 10;
 }
-
-/* .jumbotron span {
-  background-image: url(../images/logo.png);
-  height: 100px;
-  width: 200px;
-  margin-left: 10%;
-  margin-top: 15%;
+.jumbotron h1 {
+  height: 30%;
+}
+.about_us_card {
+  width: 50%;
+  height: 100vh;
+}
+.about_us2_image {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/aboutus2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: 5;
-} */
+  background-position: center;
+}
