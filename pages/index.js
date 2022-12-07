@@ -76,7 +76,7 @@ export default function Home() {
                 <div className='about_us_card pt-20'>
                     <div className='about_us5_image'></div>
 
-
+dasds
                 </div>
 
             </section>
