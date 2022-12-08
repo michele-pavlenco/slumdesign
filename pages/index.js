@@ -1,8 +1,15 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import Logo from '../images/logo.png'
-import AboutUs from '../images/aboutus2.jpeg'
 import QrCode from '../images/qrcode.png'
+import Card1 from '../images/armonia1.jpeg'
+import Card2 from '../images/armonia2.jpeg'
+import Card3 from '../images/armonia3.jpeg'
+import Card4 from '../images/armonia4.jpeg'
+import Card5 from '../images/armonia5.jpeg'
+import Card6 from '../images/armonia6.jpeg'
+import Card7 from '../images/armonia7.jpeg'
+import Card8 from '../images/armonia8.jpeg'
 
 export default function Home() {
     return (
@@ -75,8 +82,72 @@ export default function Home() {
                 </div>
                 <div className='about_us_card pt-20'>
                     <div className='about_us5_image'></div>
+                </div>
+            </section>
+            <section className='cerchio-dell-armonia'>
+                <div className=' container'>
+                    <h2 className='text-center font-semibold text-3xl pb-5'>Il cerchio dell Armonia</h2>
+                    <div className='cards flex flex-wrap '>
+                        <div className='card  flex flex-col items-center py-3'>
+                            <Image
+                                src={Card1}
+                                alt='image '
+                            />
+                            <p className='pt-3'>Natura</p>
+                        </div>
+                        <div className='card flex flex-col items-center py-3'>
+                            <Image
+                                src={Card2}
+                                alt='image '
+                            />
+                            <p className='pt-3'>Tradizione</p>
+                        </div>
+                        <div className='card flex flex-col items-center py-3'>
+                            <Image
+                                src={Card3}
+                                alt='image '
+                            />
+                            <p className='pt-3'>Pace</p>
+                        </div>
+                        <div className='card flex flex-col items-center py-3'>
+                            <Image
+                                src={Card4}
+                                alt='image '
+                            />
+                            <p className='pt-3'>Benessere</p>
+                        </div>
+                        <div className='card flex flex-col items-center  py-3'>
+                            <Image
+                                src={Card5}
+                                alt='image '
+                            />
+                            <p className='pt-3'>Cucina</p>
+                        </div>
+                        <div className='card flex flex-col items-center  py-3'>
+                            <Image
+                                src={Card6}
+                                alt='image '
+                            />
+                            <p className='pt-3'>Calore</p>
+                        </div>
+                        <div className='card flex flex-col items-center  py-3'>
+                            <Image
+                                src={Card7}
+                                alt='image '
+                            />
+                            <p className='pt-3'>Intimità
+                            </p>
+                        </div>
+                        <div className='card flex flex-col items-center py-3'>
+                            <Image
+                                src={Card8}
+                                alt='image '
+                            />
+                            <p className='pt-3'>Energia</p>
+                        </div>
 
-dasds
+                    </div>
+
                 </div>
 
             </section>
