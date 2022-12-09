@@ -27,10 +27,10 @@
   <p align="center">
     a project for SLUM DESIGN
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/michele-pavlenco/slumdesign"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="degustandoitalia.netlify.app">View Demo</a>
   </p>
 </div>
 
@@ -41,7 +41,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
