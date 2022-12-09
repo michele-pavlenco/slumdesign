@@ -30,7 +30,7 @@
     <a href="https://github.com/michele-pavlenco/slumdesign"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="degustandoitalia.netlify.app">View Demo</a>
+    <a href="https://degustandoitalia.netlify.app">View Demo</a>
   </p>
 </div>
 
@@ -89,7 +89,7 @@ Use the `BLANK_README.md` to get started.
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
+* [![React][Windtailcss]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
 * [![Svelte][Svelte.dev]][Svelte-url]
