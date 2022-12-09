@@ -44,7 +44,7 @@ _Below is an example of how you can instruct your audience on installing and set
    npm install
    ```
 3. Lounch server
-```sh
+   ```sh
    npm next dev
    ```
 
