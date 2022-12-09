@@ -20,7 +20,6 @@
 }
 .about_us_card {
   width: 50%;
-  height: 100vh;
 }
 .about_us2_image {
   height: 100%;
@@ -35,7 +34,7 @@
   width: auto;
 }
 .about_us3_image {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 150px);
   width: auto;
   background-image: url(../images/aboutus3.png);
   background-size: contain;
@@ -43,8 +42,8 @@
   background-position: center;
 }
 .about_us5_image {
-  height: 75%;
-  width: auto;
+  width: 90%;
+  height: 350px;
   margin: 0 auto;
   margin: 40px;
   background-image: url(../images/cerchio.jpeg);
@@ -54,9 +53,10 @@
 }
 .cerchio-dell-armonia {
   background-color: #92b59d;
-  height: 550px;
+  height: 560px;
   color: white;
   padding: 50px 0px;
+  margin-top: 50px;
 }
 
 .cerchio-dell-armonia .card {
@@ -82,10 +82,43 @@ footer {
   margin: 0 auto;
   background-image: url(../images/logo.png);
   background-size: cover;
-  height: 250px;
-  width: 350px;
+  height: 210px;
+  width: 340px;
 }
 
 .footer-bottom {
   width: 40%;
+}
+.footer-bottom img {
+  width: 120px;
+}
+.debug {
+  border: 1px solid black;
+}
+@media screen and (max-width: 768px) {
+  .about_us_card {
+    width: 100%;
+  }
+  .footer-bottom {
+    background-color: white;
+  }
+  .cerchio-dell-armonia .card img {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+  }
+  .footer-top {
+    width: 60%;
+  }
+  .container {
+    width: 100%;
+  }
+  .img-footer-top {
+    margin: 0 auto;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    height: 100px;
+    width: 200px;
+  }
 }
