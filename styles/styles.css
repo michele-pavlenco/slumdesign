@@ -1,7 +1,9 @@
+/* conatiner 80% */
 .container {
   width: 80%;
   margin: 0 auto;
 }
+/* Jumbotron */
 .jumbotron {
   background-image: url(../images/jumbotron.jpeg);
   height: 100vh;
@@ -14,13 +16,16 @@
 .jumbotron h1 {
   height: 30%;
 }
+/* Cards */
 .about_us {
   width: 85%;
   margin: 0 auto;
 }
+/* Card */
 .about_us_card {
   width: 50%;
 }
+/* Card 2 */
 .about_us2_image {
   height: 100%;
   width: 100%;
@@ -29,6 +34,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+/* Card 3 */
 .about_us_3container {
   height: 100%;
   width: auto;
@@ -41,6 +47,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+/* Card 5 */
 .about_us5_image {
   width: 90%;
   height: 350px;
@@ -51,6 +58,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+/* Il cerchio dell armonia */
 .cerchio-dell-armonia {
   background-color: #92b59d;
   height: 560px;
@@ -58,7 +66,7 @@
   padding: 50px 0px;
   margin-top: 50px;
 }
-
+/* Card */
 .cerchio-dell-armonia .card {
   width: calc(100% / 4);
 }
@@ -71,10 +79,12 @@
 
 /* Footer */
 
+/* Footer colors */
 footer {
   background-color: #3d3c3b;
   color: white;
 }
+/* Footer top */
 .footer-top {
   width: 60%;
 }
@@ -85,17 +95,21 @@ footer {
   height: 210px;
   width: 340px;
 }
-
+/* Footer bottom */
 .footer-bottom {
   width: 40%;
 }
 .footer-bottom img {
   width: 120px;
 }
+/* Debug */
 .debug {
   border: 1px solid black;
 }
+
+/* Media */
 @media screen and (max-width: 768px) {
+  /* Set width cards to 100% */
   .about_us_card {
     width: 100%;
   }
