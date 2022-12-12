@@ -11,9 +11,13 @@ import Card6 from '../images/armonia6.jpeg'
 import Card7 from '../images/armonia7.jpeg'
 import Card8 from '../images/armonia8.jpeg'
 
+
 export default function Home() {
+
     return (
+
         <div>
+
             {/* Head */}
             <Head>
                 <title>Degustando Italia | Home page</title>
@@ -166,6 +170,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
         </div >
     );
 }
